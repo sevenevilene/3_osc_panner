@@ -52,3 +52,7 @@ A new setting takes effect right away. A `[t b f]` sends the multiplier to each 
 - Each voice is `[osc~]` → `[*~ gain]`, split to left and right.
 - Panning uses an equal-power law: `pan × π/2` feeds `[cos]` for the left channel and `[sin]` for the right channel. This keeps the perceived loudness steady as a voice moves across the stereo field.
 - The three voices are summed for each channel, scaled by `0.33` to prevent clipping, and sent to `[dac~]`.
+
+## License
+
+[MIT](LICENSE)
