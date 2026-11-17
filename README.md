@@ -45,7 +45,7 @@ The **Octaves** radio multiplies the frequency of all three oscillators:
 |-----------|------|-----|---|---|---|---|
 | Multiplier| ×0.25| ×0.5| ×1| ×2| ×3| ×4|
 
-**Note:** The multiplier goes into the cold (right) inlet of each `[* 1]`, so you won't hear a new setting until the next frequency change (move a `Freq` slider or load a preset).
+A new setting takes effect right away. A `[t b f]` sends the multiplier to each oscillator's `[* 1]` and then re-outputs its current frequency.
 
 ## How it works
 
