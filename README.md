@@ -43,7 +43,7 @@ The **Octaves** radio multiplies the frequency of all three oscillators:
 
 | Selection | 0    | 1   | 2 | 3 | 4 | 5 |
 |-----------|------|-----|---|---|---|---|
-| Multiplier| ×0.25| ×0.5| ×1| ×2| ×3| ×4|
+| Multiplier| ×0.25| ×0.5| ×1| ×2| ×4| ×8|
 
 A new setting takes effect right away. A `[t b f]` sends the multiplier to each oscillator's `[* 1]` and then re-outputs its current frequency.
 
